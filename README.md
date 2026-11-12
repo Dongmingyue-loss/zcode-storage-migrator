@@ -3,6 +3,10 @@
 把 ZCode 的数据根从几乎写满的 C 盘搬到其它磁盘，并让 ZCode 继续按原来的路径工作。
 图形界面（tkinter），**零第三方依赖**，不做任何后台常驻。
 
+## 相关笔记
+
+完整排查过程（纸上春秋 · 学习笔记）：<https://note.zhishangchunqiu.cn/programming/windows-zcode-data-migration>
+
 ## 为什么需要它
 
 ZCode 3.x 里 `ZCODE_STORAGE_DIR` **只管一部分**：
